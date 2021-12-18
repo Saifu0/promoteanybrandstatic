@@ -230,7 +230,6 @@ nav ul li a:hover {
 
 .box i{
   font-size: 70px;
-  margin: 15px;
   color: var(--skyblue);
 }
 
@@ -245,11 +244,6 @@ nav ul li a:hover {
   font-size: 1rem;
   color: #777474;
   display: block;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
   max-width: 500px;
   margin: 10px;
 }
@@ -268,6 +262,7 @@ nav ul li a:hover {
   font-size: .9rem;
   color: var(--skyblue);
   margin: 0px;
+  padding: 10px;
 }
 
 .box a:hover{

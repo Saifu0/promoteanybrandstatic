@@ -97,6 +97,7 @@ nav ul li a:hover {
   border: 2px solid #4154f1;
   padding: 25px 30px;
   border-radius: 5px;
+  margin-top: 100px;
 }
 
 .join-container .title {
@@ -355,6 +356,10 @@ nav .menu-btn {
 
   nav .menu-btn:checked ~ .menu {
     display: block;
+  }
+
+  .join-container {
+    margin-top: 100px;
   }
 }
 
